@@ -3,7 +3,8 @@
 A set of REST APIs to manage entities and relationships in a mini gaming website.
 
 ->API hosted in Amazon EC2.
-->Used JPA for persistence, and each API method must be transactional.
+->Used JPA for persistence, and each API method is transactional.
+->Used Postman to test the API's
 
 There are two primary types of entities: Players and Sponsors. They have the following relationships and constraints:
 ● Opponents: if two players play against each other, they are opponents. The opponent relationship is symmetric in that is Alice is an opponent of Bob, then Bob is also an opponent of Alice. A player can have zero or more opponent players.
