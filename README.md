@@ -1,4 +1,4 @@
-# REST-and-Persistence
+# REST-And-Persistence
 
 A set of REST APIs to manage entities and relationships in a mini gaming website.
 
