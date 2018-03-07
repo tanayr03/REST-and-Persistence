@@ -1,0 +1,26 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+
+
+
+
+		<!-- Show SQL on console -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.id.new_generator_mappings">false</property>
+		<!--Setting Session context model -->
+
+
+		<mapping class="com.webservices.model.Player" />
+		<mapping class="com.webservices.model.Sponsor" />
+		<mapping class="com.webservices.model.Address" />
+		<mapping class="com.webservices.model.Opponents" />
+
+	</session-factory>
+
+</hibernate-configuration>
